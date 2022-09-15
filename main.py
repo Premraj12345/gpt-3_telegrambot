@@ -6,7 +6,7 @@ from telegram.ext.messagehandler import MessageHandler
 from telegram.ext.filters import Filters 
 import openai
 
-api_key = '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'
+api_key = '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'
 openai.api_key = api_key
 
 updater = Updater('5383451954:AAGx7pk-duETmTo-nH7NyEyXaLjqwkA0VoQ', use_context=True) 
